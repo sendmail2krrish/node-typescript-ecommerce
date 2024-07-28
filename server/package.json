@@ -1,0 +1,28 @@
+{
+  "name": "typescript-ecommerce-server",
+  "version": "1.0.0",
+  "description": "An e-commerce backend API using Node.js(TypeScript) and MongoDB",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Krishna Pau <sendmail2krrish@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.13.3",
+    "mongodb": "^5.9.2",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "typhoonts": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
